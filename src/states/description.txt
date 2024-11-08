@@ -1,0 +1,16 @@
+in modern software development ,ci/cd pipelines automate the process of building ,testing and deploying applications
+managing different states and transitions within such a pipeline can be intricate and error-prone
+the state design is ideal for encapsulating the state specific behaviour of a pipeline
+
+Pipelined States:
+1.Queued state
+2.Building state
+3.Testing state
+4.Packaging state
+5.Deploying state
+6.Monitoring state 
+7.Completed state
+8.Failed state
+9.Cancelled state
+
+each state defines how the pipeline behaves when certain actions are invoked
